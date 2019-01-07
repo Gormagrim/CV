@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+}
+h2{
+  font-size: 20px;
+}
+.Présentation p{
+  color: white;
+  font-size: 120%
+}
+h1{
+  color: white;
+  font-size: 140%;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+p{
+  font-size: 120%;
+}
+.entete{
+  padding: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #292C2F;
+  margin-left: 10%;
+  margin-bottom: -50px;
+  position: sticky;
+}
+.Présentation{
+  width: 25%;
+  height: 600px;
+  background-color: grey;
+  float: left;
+  padding-left: 10px;
+  padding-top: 110px;
+  margin-top: -50px;
+}
+.Présentation p{
+
+
+}
+.Formation{
+  width: 75%;
+  height: 200px;
+  padding-top: 50px;
+  padding-left: 35%;
+
+}
+.Expérience{
+  width: 70%;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 35%;
+
+}
