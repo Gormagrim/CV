@@ -1,56 +1,153 @@
 @font-face {
   font-family: 'Ubuntu', sans-serif;
 }
-h2{
-  font-size: 20px;
+html {
+  scroll-behavior: smooth; }
+*{
+  margin: 0;
 }
 .Présentation p{
   color: white;
-  font-size: 120%
+  font-size: 110%;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 140%;
+}
+.Présentation{
+  float: left;
+  width: 100px;
+  height: 1000px;
+  background-color: black;
+  padding-top: 220px;
+  position: fixed;
+  z-index: 1000;
+}
+@media screen and (max-width: 900px) {
+  .Présentation {
+    display: none;
+  }
+}
+.Présentation ul{
+  margin-top: 50px;
+}
+.Présentation li{
+  list-style-type: none;
+  color: white;
+  height: 60px;
+  width: 200px;
+  margin-bottom: 20px;
+  background-image: url(images/background) ;
+  border-radius: 20px;
+  border: 3px solid white;
+  text-align: center;
+  padding-top: 25px;
+}
+.Présentation li a {
+  color: white;
+  font-size: 160%;
+  text-decoration: none;
+}
+.header{
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-image: url(images/background);
+  position: fixed;
+  z-index: 999;
+}
+.header2{
+  float: left;
+  width: 100%;
+  padding-top: 150px;
+  height: 150px;
+  background-image: url(images/background);
+  position: fixed;
+  z-index: -500;
 }
 h1{
   color: white;
-  font-size: 140%;
-  position: absolute;
-  margin-top: -10px;
-  margin-left: 20px;
+  text-align: center;
+  margin-top: 50px;
 }
-p{
-  font-size: 120%;
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-.entete{
-  padding: 0px;
+.header h1{
+  font-size: 250%
+}
+.global{
+  margin-top: 300px;
+  padding-top: 100px;
   width: 100%;
-  height: 80px;
-  background-color: #292C2F;
-  margin-left: 10%;
-  margin-bottom: -50px;
-  position: sticky;
-}
-.Présentation{
-  width: 25%;
-  height: 600px;
-  background-color: grey;
+  z-index: 799;
+  background-image: url(images/background2) ;
   float: left;
-  padding-left: 10px;
-  padding-top: 110px;
-  margin-top: -50px;
+  text-align: center;
 }
-.Présentation p{
-
-
+.global h2{
+  font-size: 180%;
+  margin-top: 100px;
 }
 .Formation{
-  width: 75%;
-  height: 200px;
-  padding-top: 50px;
-  padding-left: 35%;
-
+  height: 620px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid goldenrod;
 }
 .Expérience{
-  width: 70%;
+  height: 1000px;
+  border-bottom: 1px solid goldenrod;
+}
+.Expérience p{
+  margin-bottom: 40px;
+}
+.Expérience h2{
+  margin-top: 200px;
+}
+.Compétences{
+  height: 1500px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid goldenrod;
+}
+.izi{
+  height: 450px;
+}
+.izi ul{
+  height: 450px;
+}
+.izi li{
+  margin-right: 40px;
+  height: auto;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  display: inline;
+}
+#Compétences {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  z-index: 797;
+}
+#Compétences h2 {
+    grid-column: span 3;
+}
+.c100 {
+  font-size: 4em;
+}
+#Contact{
+  display: grid;
+  float: left;
+  width: 100%;
+  background-image: url(images/background);
   height: 200px;
-  padding-top: 20px;
-  padding-left: 35%;
-
+  text-align: center;
+}
+#Contact a{
+  font-size: 120%;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
